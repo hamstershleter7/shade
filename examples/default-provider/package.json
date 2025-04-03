@@ -1,0 +1,28 @@
+{
+  "name": "default-provider",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.1.2",
+    "next-video": "file:../..",
+    "open-props": "^1.7.8",
+    "player.style": "^0.1.1",
+    "react": "^19",
+    "react-dom": "^19",
+    "react-player": "^3.0.0-canary.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.2",
+    "typescript": "^5"
+  }
+}
